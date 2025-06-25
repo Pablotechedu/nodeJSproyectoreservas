@@ -1,0 +1,110 @@
+> vite
+
+
+  VITE v6.3.5  ready in 472 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.5.221:3000/
+  ➜  press h + enter to show help
+Error:   Failed to scan for dependencies from entries:
+  /Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/index.html
+
+  ✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/components/Header.js:17:4:
+      17 │     <header className="header">
+         ╵     ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/components/LoadingSpinner.js:5:4:
+      5 │     <div className="loading-container">
+        ╵     ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/components/ProtectedRoute.js:9:11:
+      9 │     return <div className="loading">Cargando...</div>;
+        ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/context/AuthContext.js:96:9:
+      96 │   return <AuthContext.Provider value={value}>{children}</AuthConte...
+         ╵          ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/pages/CrearReserva.js:177:11:
+      177 │     return <LoadingSpinner message="Cargando formulario..." />;
+          ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/pages/Dashboard.js:52:11:
+      52 │     return <LoadingSpinner message="Cargando dashboard..." />;
+         ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/pages/Espacios.js:57:11:
+      57 │     return <LoadingSpinner message="Cargando espacios..." />;
+         ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/pages/Login.js:17:11:
+      17 │     return <Navigate to="/dashboard" replace />;
+         ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/pages/MisReservas.js:78:11:
+      78 │     return <LoadingSpinner message="Cargando tus reservas..." />;
+         ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+✘ [ERROR] The JSX syntax extension is not currently enabled
+
+    src/pages/Register.js:20:11:
+      20 │     return <Navigate to="/dashboard" replace />;
+         ╵            ^
+
+  The esbuild loader for this file is currently set to "js" but it must be set to "jsx" to be able to parse JSX syntax. You can use "loader: { '.js': 'jsx' }" to do that.
+
+
+    at failureErrorWithLog (/Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:1463:15)
+    at /Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:924:25
+    at runOnEndCallbacks (/Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:1303:45)
+    at buildResponseToResult (/Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:922:7)
+    at /Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:934:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (/Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:933:54)
+    at handleRequest (/Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:626:17)
+    at handleIncomingPacket (/Users/pabloaguilar/Documents/Tecnico Galileo/Proyecto Reservas/frontend/node_modules/esbuild/lib/main.js:651:7)
